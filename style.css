@@ -48,6 +48,14 @@ header nav ul li a{
     color: #6C63FF;
     font-size: 25px;
 }
+.T2{
+    margin: 0;
+    padding: 0;
+    font-size: 44px;
+    max-width: 500px;
+    margin-top: 120px;
+    margin-left: 165px;
+}
 .Button{
     padding: 10px 24px;
     border: 1.5px solid #B7B3B3;
@@ -59,6 +67,14 @@ header nav ul li a{
 .ButtonParent1{
     margin-right: 14px;
    
+}
+
+#Border1{
+    margin-top: 10px;
+    margin-left: 168px;
+    width: 52px;
+    height: 3px;
+    background-color: #B7B3B3;
 }
 
 #LogoParent{
