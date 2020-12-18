@@ -43,6 +43,12 @@ header nav ul li a{
 .M700{
     font-weight: 700;
 }
+.M500{
+    font-weight: 500;
+}
+.M400{
+    font-weight: 400;
+}
 .T1{
     margin-left: 14px;
     color: #6C63FF;
@@ -53,8 +59,26 @@ header nav ul li a{
     padding: 0;
     font-size: 44px;
     max-width: 500px;
-    margin-top: 120px;
-    margin-left: 165px;
+
+}
+.T3{
+    margin-bottom: 64px;
+    opacity: 0.6;
+    font-size: 20px;
+    max-width: 400px;
+}
+.UL{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.UL li{
+    list-style-type: none;
+}
+.UL li a{
+    text-decoration: none;
 }
 .Button{
     padding: 10px 24px;
@@ -64,14 +88,29 @@ header nav ul li a{
     background-color: #6C63FF;
     color: white;
 }
+.B4{
+
+    margin-right: 20px;
+    background-color: #6C63FF;
+    color: white;
+}
+.B3{
+
+    color: black;
+    padding: 10px 18px;
+}
 .ButtonParent1{
     margin-right: 14px;
    
 }
+.C1{
+    margin-top: 120px;
+    margin-left: 165px;
+}
 
 #Border1{
     margin-top: 10px;
-    margin-left: 168px;
+    margin-left: 2px;
     width: 52px;
     height: 3px;
     background-color: #B7B3B3;
