@@ -4,6 +4,7 @@
 }
 a{
     text-decoration: none;
+    white-space: nowrap;
 }
 body, html{
     margin: 0;
@@ -12,6 +13,7 @@ body, html{
 header nav ul{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
     margin-top: 20px;
@@ -54,6 +56,11 @@ header nav ul li a{
     background-color: #6C63FF;
     color: white;
 }
+.ButtonParent1{
+    margin-right: 14px;
+   
+}
+
 #LogoParent{
     display: flex;
     align-items: center;
