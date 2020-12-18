@@ -66,6 +66,29 @@ header nav ul li a{
     opacity: 0.6;
     font-size: 20px;
     max-width: 400px;
+    margin-right: 0;
+}
+.T4{
+    margin: 0;
+    padding: 0;
+    font-size: 44px;
+    max-width: 500px;
+}
+.T5{
+    font-size: 25px;
+    opacity: 0.6;
+    text-align: center;
+    max-width: 600px;
+    line-height: 30,48px;
+}
+.T6{
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.6;
+}
+.T7{
+    font-size: 27px;
+line-height: 33px;
 }
 .UL{
     display: flex;
@@ -104,10 +127,29 @@ header nav ul li a{
    
 }
 .C1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     margin-top: 120px;
     margin-left: 165px;
 }
-
+.C2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 200px;
+}
+.C3{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.C3 img{
+    margin: 0 55.5px;
+    width: 207px;
+    height: 207px;
+}
 #Border1{
     margin-top: 10px;
     margin-left: 2px;
@@ -115,6 +157,13 @@ header nav ul li a{
     height: 3px;
     background-color: #B7B3B3;
 }
+#Border2{
+    margin-top: 10px;
+    width: 49px;
+    height: 3px;
+    background-color: #B7B3B3;
+}
+
 
 #LogoParent{
     display: flex;
@@ -124,4 +173,28 @@ header nav ul li a{
 #LogoParent img{
     width: 51px;
     height: 51px;
+}
+#img1{
+
+    width: 509px;
+    height: 364px;
+}
+#img1_Parent{
+position: absolute;
+margin-left: 775px;
+margin-top: -45px;
+}
+.Img__Under{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Img__Under h2, .Img__Under p{
+    text-align: center;
+}
+.Img__Under p {
+    max-width: 300px;
+}
+.IMGU{
+    margin: 0 12px;
 }
