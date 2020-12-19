@@ -736,4 +736,26 @@ height: 76px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    #img1_Parent{
+        display: none;
+    }
+    .C1{
+        align-self: center;
+        margin-left: 0;
+
+    }
+    .T2{
+text-align: center;
+align-self: center;
+    }
+    .T3{
+        text-align: center;
+        align-self: center;
+            }
+    #Border1{
+        align-self: center; 
+    }
+    .UL{
+        align-self: center;
+    }
 }
