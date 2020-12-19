@@ -674,3 +674,66 @@ height: 76px;
     display: flex;
     flex-direction: column;
 }
+
+/* MEDIA */
+
+@media screen and (max-width: 1350px)
+{
+.S1{
+     margin-right: 0;
+}
+#img1_Parent{
+    margin-left: 550px;
+}
+}
+@media screen and (max-width: 1220px)
+{
+.S2{
+    margin-right: 0;
+}
+#img1_Parent{
+    margin-left: 350px;
+}
+}
+@media screen and (max-width: 1150px){
+    header nav ul li{
+        list-style-type: none;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    header nav ul li{
+        list-style-type: none;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 1000px){
+    header nav ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #LogoParent{
+        margin: 0;
+    }
+    header nav ul li{
+        list-style-type: none;
+        margin-top: 10px;
+       
+    }
+    .Outline{
+        border: 1px solid black;
+        padding: 8px 10px;
+        
+        background-color: #6C63FF;
+    }
+    .Outline a{
+        color: white;
+    }
+    .IsCanDisable{
+        display: none;
+    }
+    .ButtonParent1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
