@@ -635,7 +635,9 @@ height: 76px;
     display: flex;
     flex-direction: column;
 }
-
+.IsCanDisableC3{
+    display: none;
+}
 
 
 /*  */
@@ -762,4 +764,22 @@ align-self: center;
     .UL{
         align-self: center;
     }
+}
+@media screen and (max-width: 900px){
+.C3{
+    flex-direction: column;
+    align-items: center;
+}
+.IsCanDisableC3{
+    display: block;
+}
+.Img__Under{
+    display: none;
+}
+.T7{
+    text-align: center;
+}
+.T6{
+    text-align: center;
+}
 }
