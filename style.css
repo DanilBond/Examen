@@ -809,8 +809,86 @@ height: 400px;
         margin: 0 auto;
         padding-top: 15px;
     }
+    #Bottom__Logo{
+        display: none;
+    }
+    .T13{
+        display: none;
+    }
+    #Border4{
+        margin-right: 0;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .T12{
+        margin-left: 0;
+    }
+    #img3{
+        display: none;
+    }
 }
 @media screen and (max-width: 900px){
+.T11{
+    display: flex;
+}
+    .C6{
+    flex-direction: column;
+   align-items: center;
+   margin-bottom: 50px;
+   margin-left: 0;
+}
+.C7{
+    flex-direction: column;
+    align-items: center;
+}
+.C6_1{
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.C6_1 img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.C6_2{
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.C6_2 img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+/*  */
+.C7{
+    margin-left: 0;
+}
+.C7_1{
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.C7_1 img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.C7_2{
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.C7_2 img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+/*  */
+.T14{
+    text-align: center;
+    margin-left: 0;
+}
+.T15{
+    text-align: center;
+    margin-left: 0;
+}
+.C7_1{
+    margin-bottom: 50px;
+}
 .C3{
     flex-direction: column;
     align-items: center;
