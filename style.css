@@ -357,6 +357,7 @@ color: #8B8B8B;
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    width: 100%;
 }
 .C3 img{
     margin: 0 55.5px;
@@ -681,9 +682,18 @@ height: 76px;
 }
 
 /* MEDIA */
+@media screen and (max-width: 1465px)
+{
+    #img1_Parent{
+        margin-left: 600px;
+    }
+}
 
 @media screen and (max-width: 1350px)
 {
+    .C16{
+        margin-left: 50px;
+    }
 .S1{
      margin-right: 0;
 }
@@ -692,8 +702,17 @@ height: 76px;
 }
 
 }
+@media screen and (max-width: 1245px)
+{
+    #img1_Parent{
+        margin-left: 500px;
+    }
+}
 @media screen and (max-width: 1220px)
 {
+    .C14{
+        flex-wrap: wrap;
+    }
     .C9{
         margin-left: 0;
     
@@ -771,6 +790,11 @@ height: 76px;
         list-style-type: none;
         margin-right: 20px;
         
+    }
+}
+@media screen and (max-width:1068px){
+    #img3{
+        display: none;
     }
 }
 @media screen and (max-width: 1000px){
@@ -874,8 +898,9 @@ height: 400px;
     .T12{
         margin-left: 0;
     }
-    #img3{
-        display: none;
+    
+    .C8{
+        margin-top: 100px;
     }
 }
 @media screen and (max-width: 900px){
@@ -957,3 +982,62 @@ height: 400px;
     text-align: center;
 }
 }
+@media screen and (max-width: 666px){
+    .C12{
+        width: 100%;
+    }
+    .T23{
+        margin-right: 125px;
+        margin-left: 0;
+    text-align: center;
+    }
+    .T25{
+        text-align: center;
+        margin: 12px auto;
+    }
+    #LogoParent2{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .C15 ul{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:580px){
+    .C15 ul{
+        padding: 0;
+    padding-left: 0;
+    /* padding-right: 25px; */
+    }
+    .C15{
+        margin: 0 auto;
+    }
+    .C16{
+        margin: 0;
+    }
+    .C17{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 345px){
+.C15{
+    margin: 15px auto;
+    border-radius: 25px;
+    background-color: #6C63FF;
+}
+
+.C15 ul li a{
+    color: rgb(218, 218, 218);
+}
+.C15 ul p{
+    color: white;
+}
+.C15 ul{
+    margin-top: 120px;
+    margin: 0 50;
+    padding: 0;
+}
+}
+
+
