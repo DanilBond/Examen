@@ -395,7 +395,7 @@ color: #8B8B8B;
 }
 .C10{
     display: flex;
-    margin-left: 350px;
+    margin-left: auto;
     
 }
 .C11{
@@ -676,6 +676,9 @@ height: 76px;
     display: flex;
     flex-direction: column;
 }
+.Inv{
+    display: none;
+}
 
 /* MEDIA */
 
@@ -687,9 +690,61 @@ height: 76px;
 #img1_Parent{
     margin-left: 550px;
 }
+
 }
 @media screen and (max-width: 1220px)
 {
+    .C9{
+        margin-left: 0;
+    
+    }
+    .C10{
+        justify-content: center;
+    }
+    .img2{
+        display: flex;
+        justify-content: center;
+        margin: 10 auto;
+        position: relative;
+    }
+    .C8{
+        height: auto;
+        
+    }
+    .C10{
+        flex-wrap: wrap;
+    }
+    .Card1{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    #Border5{
+        margin: 5 auto;
+    }
+    .T16{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .T17{
+        display: flex;
+        justify-content: center;
+    }
+    .C8{
+        display: block;
+    }
+    .T16{
+        max-width: 900px;
+    }
+    .Inv{
+        display: block;
+    }
+    .Vis{
+        display: none;
+    }
 .S2{
     margin-right: 0;
 }
@@ -709,12 +764,8 @@ height: 76px;
     margin-left: 700px;
 }
 }
-@media screen and (max-width: 1150px){
-    header nav ul li{
-        list-style-type: none;
-        margin-right: 20px;
-    }
-}
+
+
 @media screen and (max-width: 1150px){
     header nav ul li{
         list-style-type: none;
