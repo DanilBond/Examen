@@ -696,6 +696,18 @@ height: 76px;
 #img1_Parent{
     margin-left: 350px;
 }
+.T8{
+ margin-left: 700px;
+}
+.T9{
+    margin-left: 700px;
+   }
+#Border3{
+    margin-left: 702px;
+}
+.T10{
+    margin-left: 700px;
+}
 }
 @media screen and (max-width: 1150px){
     header nav ul li{
@@ -763,6 +775,39 @@ align-self: center;
     }
     .UL{
         align-self: center;
+    }
+    #I1{
+        display: none;
+    }
+    #I2{
+        display: none;
+    }
+    .C4__Img{
+position: relative;
+display: flex;
+flex-direction: column;
+height: 400px;
+
+    }
+    .C4{
+        margin-bottom: 0;
+    }
+    #Border3{
+        margin: 15px auto;
+        
+    }
+    .T8{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .T9{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .T10{
+        align-self: center;
+        margin: 0 auto;
+        padding-top: 15px;
     }
 }
 @media screen and (max-width: 900px){
