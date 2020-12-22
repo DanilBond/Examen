@@ -814,10 +814,10 @@ height: 76px;
         margin-right: 0;
     }
     .Outline{
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         padding: 8px 10px;
         
-        background-color: #6C63FF;
+        /*background-color: #6C63FF;*/
     }
     .Outline a{
         color: white;
