@@ -815,12 +815,12 @@ height: 76px;
     }
     .Outline{
         /*border: 1px solid black;*/
-        padding: 8px 10px;
+        padding: 5px 10px;
         
         /*background-color: #6C63FF;*/
     }
     .Outline a{
-        color: white;
+        color: black;
     }
     .IsCanDisable{
         display: none;
