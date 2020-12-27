@@ -1067,6 +1067,11 @@ height: 400px;
         margin-left: 0;
     }
 }
+@media screen and (max-width:622px){
+.C14{
+    justify-content: center;
+}
+}
 @media screen and (max-width:580px){
     .T6{
         padding: 0 15px;
@@ -1086,6 +1091,9 @@ height: 400px;
     .T15{
         padding: 0 10px;
     }
+    .T16{
+        padding: 0 10px;
+    }
     .C15 ul{
         padding: 0;
     padding-left: 0;
@@ -1101,6 +1109,7 @@ height: 400px;
         margin: 0 auto;
     }
 }
+
 @media screen and (max-width: 345px){
 .C15{
     margin: 15px auto;
