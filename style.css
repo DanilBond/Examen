@@ -1065,9 +1065,10 @@ height: 400px;
     }
     .C15 ul{
         margin-left: 0;
+        padding: 0 20px;
     }
 }
-@media screen and (max-width:622px){
+@media screen and (max-width:623px){
 .C14{
     justify-content: center;
 }
@@ -1094,11 +1095,11 @@ height: 400px;
     .T16{
         padding: 0 10px;
     }
-    .C15 ul{
+    /* .C15 ul{
         padding: 0;
     padding-left: 0;
     /* padding-right: 25px; */
-    }
+    
     .C15{
         margin: 0 auto;
     }
