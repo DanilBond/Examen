@@ -708,6 +708,20 @@ height: 76px;
         margin-left: 600px;
     }
 }
+@media screen and (max-width: 1450px){
+    .T8{
+        margin-left: 800px;
+    }
+    #Border3{
+        margin-left: 802px;
+    }
+    .T9{
+        margin-left: 800px;
+    }
+    .T10{
+        margin-left: 800px;
+    }
+    }
 
 @media screen and (max-width: 1350px)
 {
@@ -722,6 +736,7 @@ height: 76px;
 }
 
 }
+
 @media screen and (max-width: 1245px)
 {
     #img1_Parent{
@@ -833,6 +848,32 @@ height: 76px;
         margin-right: 13px;
        
     }
+    .T8{
+        margin-top: 110px;
+    }
+    #I2{
+        width: 380px;
+        height: 229px;
+    }
+    #I1{
+        margin-top: 160px;
+        width: 235px;
+        height: 235px;
+    }
+
+
+    .T8{
+        margin-left: 550px;
+       }
+       .T9{
+           margin-left: 550px;
+          }
+       #Border3{
+           margin-left: 552px;
+       }
+       .T10{
+           margin-left: 550px;
+       }
  
 }
 @media screen and (max-width: 1140px){
