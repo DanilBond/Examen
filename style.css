@@ -15,6 +15,10 @@ body, html{
 .NavBurgerElement{
     display: block;
 }
+
+#Burger_Btn{
+   margin-top: 15px;
+}
 header nav ul{
     display: flex;
     align-items: center;
@@ -959,10 +963,35 @@ height: 76px;
     margin-bottom: 50px;
 }
 }
+@media screen and (min-width: 1000px){
+#Burger_Btn{
+    display: none;
+}
+.Burger_Menu_Main{
+    display: flex;
+    flex-direction: row;
+ 
+}
+}
+
 @media screen and (max-width: 1000px){
-    #BurgerButton{
-        display: block;
+    .Burger_Menu_Main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    #Burger_Btn{
+        display: block;
+        /* margin-bottom: 200px; */
+        border: 1px solid black;
+        border-radius: 0px;
+        box-shadow: none;
+        width: 100px;
+        height: 35px;
+        background-color: #6C63FF;
+        color: white;
+    }
+
     .T2{
         margin-left: 0;
     }
