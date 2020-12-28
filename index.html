@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body id="Body_Main">
     <!-- Header element -->
     <header>
       <nav>
@@ -363,6 +363,14 @@
 <script>
   var Menu = document.getElementById("BMM");
   var IsVisible = true;
+  var BodyElem = document.getElementById("Body_Main");
+
+  BodyElem.onresize = function(){
+    if(window.innerWidth >= 1000){
+      Menu.style.display = "flex";
+      IsVisible = true;
+    }
+  };
   function ClickBtn(){
     if(IsVisible === true){
       Menu.style.display = "none";
