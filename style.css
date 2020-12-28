@@ -963,6 +963,11 @@ height: 76px;
     margin-bottom: 50px;
 }
 }
+@media screen and (max-width: 1018px){
+#LogoParent{
+    margin-left: 45px;
+}
+}
 @media screen and (min-width: 1000px){
 #Burger_Btn{
     display: none;
