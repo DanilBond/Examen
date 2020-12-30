@@ -483,6 +483,7 @@ footer{
     border-radius: 15px;
     width: 300px;
     height: 300px;
+    flex-shrink: 0;
 }
 .Card2{
     z-index: 1;
@@ -594,6 +595,9 @@ z-index: -1;
     width: 100%;
 
 }
+.Space4{
+    min-width: 235px;
+}
 #I1{
     z-index: -1;
     margin-top: 135px;
@@ -701,9 +705,7 @@ height: 76px;
     display: flex;
     flex-direction: column;
 }
-.Inv{
-    display: none;
-}
+
 
 /* MEDIA */
 @media screen and (max-width: 1465px)
@@ -1195,7 +1197,12 @@ height: 400px;
         margin: 0 auto;
     }
 }
-
+#OV{
+    overflow: hidden;
+   
+    margin-left: 100px;
+    width: 1100px;
+}
 @media screen and (max-width: 345px){
 .C15{
     margin: 15px auto;
@@ -1215,5 +1222,3 @@ height: 400px;
     padding: 0;
 }
 }
-
-
