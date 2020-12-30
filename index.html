@@ -365,9 +365,19 @@
   var IsVisible = true;
   var BodyElem = document.getElementById("Body_Main");
   var ScrollParent = document.getElementById("Scroll_Parent");
-  
-   ScrollParent.onmouseenter = function(){
-     console.log("Entered");
+  var IsMouseDown = false;
+
+   ScrollParent.onmousedown = function(){
+     console.log("Mouse downed");
+     IsMouseDown = true;
+   }
+    
+   ScrollParent.onmouseup = function(){
+     console.log("Mouse upped");
+     IsMouseDown = false;
+   }
+   ScrollParent.onmousemove = function(){
+    console.log("Mouse moved");
    }
 
   BodyElem.onresize = function(){
