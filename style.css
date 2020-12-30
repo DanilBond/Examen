@@ -434,6 +434,12 @@ flex-direction: column;
 .C13{
     margin-top: 75px;
 }
+#OV{
+    overflow: hidden;
+  
+    margin-left: 100px;
+    width: 1100px;
+}
 .C14{
     
     display: flex;
@@ -761,6 +767,13 @@ height: 76px;
 }
 @media screen and (max-width: 1220px)
 {
+    .Space4{
+        display: none;
+    }
+    #OV{
+        margin-left: 0;
+        width: 100%;
+    }
     .T2{
         margin-left: -50px;
     }
@@ -1197,12 +1210,7 @@ height: 400px;
         margin: 0 auto;
     }
 }
-#OV{
-    overflow: hidden;
-   
-    margin-left: 100px;
-    width: 1100px;
-}
+
 @media screen and (max-width: 345px){
 .C15{
     margin: 15px auto;

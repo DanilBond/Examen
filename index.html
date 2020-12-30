@@ -367,6 +367,7 @@ var ScrollParent = document.getElementById("Scroll_Parent");
 var IsMouseDown = false;
 var currentPos = 0;
 var scrollPos = 0;
+var IsCanScroll = true;
 
 
  ScrollParent.onmousedown = function(){
@@ -380,7 +381,7 @@ document.onmouseup = function(){
  }
 
     window.addEventListener('mousemove', function (e) {
-      if(IsMouseDown == true){
+      if(IsMouseDown == true && IsCanScroll === true){
     console.log(textContent = e.x);
     
     scrollPos = e.x - 1000;
@@ -395,6 +396,13 @@ BodyElem.onresize = function(){
   if(window.innerWidth >= 1000){
     Menu.style.display = "flex";
     IsVisible = true;
+  }
+  if(window.innerWidth >= 990){
+    IsCanScroll = true;
+  }
+  else{
+    IsCanScroll = false;
+    ScrollParent.style.transform = "translateX(0px)";
   }
 };
 function ClickBtn(){
